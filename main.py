@@ -3,9 +3,9 @@ from bs4 import BeautifulSoup
 import smtplib
 
 NFL_URL = 'https://www.nfl.com/'
-MY_EMAIL = 'josephdeancardoza@gmail.com'
-MY_PASSWORD = 'xbnt kfsz eygv sbvz'
-MY_TEAM = 'Watson'
+MY_EMAIL = MY_EMAIL
+MY_PASSWORD = MY_PASSWORD
+MY_TEAM = 'Broncos'
 
 nfl_page = requests.get(NFL_URL)
 soup = BeautifulSoup(nfl_page.text, 'html.parser')
